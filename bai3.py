@@ -10,6 +10,6 @@ print(round(p * 2, 1))
 print(round(s, 1))
 
 #có thể dùng 2 hàm này cũng được
-#print('{0:0.1f}'.format(p * 2))
-#print('{0:0.1f}'.format(s))
+#print('{:.1f}'.format(p * 2))
+#print('{:.1f}'.format(s))
 
