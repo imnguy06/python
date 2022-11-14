@@ -1,12 +1,10 @@
-a = int(input())
-check = 0
+from math import sqrt
 
-for i in range(1, a+1):
-    if i**2 == a:
-        check = 1
-        break
+n = int(input())
 
-if check == 1:
-    print("Yes")
+i = int(sqrt(n))
+
+if i == sqrt(n):
+    print('Yes')
 else:
-    print("No")
+    print('No')
